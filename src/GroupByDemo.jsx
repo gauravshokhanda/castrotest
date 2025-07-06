@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 // ✅ Define groupBy method for all arrays
+/* eslint-disable no-extend-native */
 Array.prototype.groupBy = function (keySelector) {
   if (!Array.isArray(this) || this.length === 0) return {};
 
